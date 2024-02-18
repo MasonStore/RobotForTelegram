@@ -66,11 +66,28 @@ func main() {
 		Windows: &windows.Options{
 			WebviewIsTransparent:              true,
 			WindowIsTranslucent:               false,
-			DisableWindowIcon:                 false,
+			DisableWindowIcon:                 true,
 			DisableFramelessWindowDecorations: false,
 			WebviewUserDataPath:               "",
 			WebviewBrowserPath:                "",
+			WebviewGpuIsDisabled:              true,
 			Theme:                             windows.Dark,
+			CustomTheme: &windows.ThemeSettings{
+				// Theme to use when window is active
+				DarkModeTitleBar:   windows.RGB(50, 50, 50),
+				DarkModeTitleText:  windows.RGB(224, 224, 224),
+				DarkModeBorder:     windows.RGB(50, 50, 50),
+				LightModeTitleBar:  windows.RGB(200, 200, 200),
+				LightModeTitleText: windows.RGB(20, 20, 20),
+				LightModeBorder:    windows.RGB(200, 200, 200),
+				// Theme to use when window is inactive
+				DarkModeTitleBarInactive:   windows.RGB(50, 50, 50),
+				DarkModeTitleTextInactive:  windows.RGB(224, 224, 224),
+				DarkModeBorderInactive:     windows.RGB(50, 50, 50),
+				LightModeTitleBarInactive:  windows.RGB(100, 100, 100),
+				LightModeTitleTextInactive: windows.RGB(10, 10, 10),
+				LightModeBorderInactive:    windows.RGB(100, 100, 100),
+			},
 		},
 		// Mac platform specific options
 		// Mac平台特定选项
