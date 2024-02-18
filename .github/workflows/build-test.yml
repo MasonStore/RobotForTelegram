@@ -29,6 +29,11 @@ jobs:
           go-version: ${{ matrix.go-version }}
           cache-dependency-path: ./app/go.sum
 
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      
       - name: Run tests (mac)
         if: matrix.os == 'macos-latest' || matrix.os == 'macos-11'
         env:
