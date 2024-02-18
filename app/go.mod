@@ -4,14 +4,10 @@ go 1.21
 
 toolchain go1.21.3
 
-replace (
-	github.com/go-telegram-bot-api/telegram-bot-api/v5 => ./pkg/telegram-bot-api
-	github.com/lu4p/go-escalate => ./pkg/go-escalate
-)
+replace github.com/go-telegram-bot-api/telegram-bot-api/v5 => ./pkg/telegram-bot-api
 
 require (
 	github.com/go-telegram-bot-api/telegram-bot-api/v5 v5.5.1
-	github.com/lu4p/go-escalate v0.0.0-20200507153608-2d90c2953bff
 	github.com/sashabaranov/go-openai v1.19.4
 	github.com/wailsapp/wails/v2 v2.8.0
 	gorm.io/driver/sqlite v1.5.5
