@@ -111,7 +111,7 @@ loadAccounts();
 
 const checkSelectedAccount = () => {
   //先检查有没有同意用户协议
-  if (LocalStorage.ifAgree()) {
+  if (!LocalStorage.ifAgree()) {
     router.push('/userAgreement');
     return;
   }
