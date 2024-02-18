@@ -1,0 +1,23 @@
+{
+  "name": "Robot For Telegram",
+  "outputfilename": "app",
+  "assetdir": "frontend/dist",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:build": "npm run build-only",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "debounceMS": 500,
+  "author": {
+    "name": "Mason Freedim",
+    "email": "mason@freedim.org"
+  },
+  "version": "1.0",
+  "info": {
+    "companyName": "Beijing Xingxing Technology Co., Ltd.",
+    "productName": "Robot For Telegram",
+    "productVersion": "1.0",
+    "copyright": "Copyright © 2024",
+    "comments": "Robot For Telegram is a desktop product designed to help users manage multiple Telegram bots and provide a range of management and interaction features."
+  }
+}

@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  user-select: none;
+  cursor: default;
+  //锁定滚动
+  overflow: hidden;
+}
+
+:root:root {
+  --van-notify-text-color: #fff;
+  --van-notify-font-size: 14px;
+  --van-notify-success-background: #6bd35f;
+  --van-notify-danger-background: #eb4d3d;
+  --van-field-error-message-color: #eb4d3d;
+  --van-field-input-error-text-color: #eb4d3d;
+  --van-field-required-mark-color: #eb4d3d;
+  --van-notify-warning-background: #f09a37;
+  --van-notify-primary-background: #4792f2;
+
+  --van-loading-text-color: #dfdfdf;
+  --van-loading-text-font-size: 12px;
+  --van-field-error-message-font-size: 12px;
+  //--van-loading-spinner-color: rgba(50, 50, 50, 1);
+  --van-loading-spinner-color: red;
+
+  --van-toast-text-color: #dfdfdf;
+  --van-toast-font-size: 13px;
+  --van-toast-loading-icon-color: #dfdfdf;
+  --van-toast-radius: 22px;
+  --van-toast-background: rgba(50, 50, 50, 1);
+  --van-toast-default-width: 88px;
+
+  --van-action-bar-background: #1c1c1c;
+  --van-action-bar-icon-background: #1c1c1c;
+  --van-action-bar-icon-color: #dfdfdf;
+  --van-action-bar-icon-text-color: #dfdfdf;
+  --van-action-bar-icon-active-color: #dfdfdf;
+
+  --van-collapse-item-content-background: #323232;
+  --van-cell-background: #323232;
+  --van-cell-text-color: #dfdfdf;
+  --van-cell-border-color: #3d3d3d;
+  --van-doc-border-color: #3d3d3d;
+  --van-cell-font-size: 14px;
+  --van-dialog-has-title-message-text-color: #dadada;
+  --van-dialog-font-size: 14px;
+  --van-dialog-message-font-size: 14px;
+
+  --van-nav-bar-background:#323232;
+}
+
+.rft-notify {
+  height: 50px;
+}
+
+.van-doc-demo-block__title {
+  margin: 0;
+  padding: 16px 16px 16px;
+  color: #8b8b8b;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.margin-left-14px {
+  margin-left: 14px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.content-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgcolor-red {
+  background-color: red;
+}
+
+.green {
+  color: #6bd35f;
+}
