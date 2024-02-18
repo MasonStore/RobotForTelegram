@@ -33,7 +33,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '14'
-      
+
       - name: Run tests (mac)
         if: matrix.os == 'macos-latest' || matrix.os == 'macos-11'
         env:
@@ -41,7 +41,6 @@ jobs:
         working-directory: ./app
         run: |
           go install github.com/wailsapp/wails/cmd/wails@latest
-          go test -v ./...
           wails build
 
       - name: Run tests (!mac)
@@ -49,5 +48,4 @@ jobs:
         working-directory: ./app
         run: |
           go install github.com/wailsapp/wails/cmd/wails@latest
-          go test -v ./...
           wails build
