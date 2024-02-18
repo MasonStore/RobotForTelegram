@@ -2,6 +2,7 @@ package main
 
 import (
 	"context"
+	"github.com/MasonStore/RobotForTelegram/app/backend/store"
 	"github.com/MasonStore/RobotForTelegram/app/backend/tgbot"
 	"github.com/MasonStore/RobotForTelegram/app/backend/views"
 )
@@ -23,8 +24,9 @@ func (a *App) startup(ctx context.Context) {
 	// Perform your setup here
 	// 在这里执行初始化设置
 	a.ctx = ctx
-	tgbot.CheckRobot()
+	store.InitInstance(ctx)
 	views.SetCtx(ctx)
+	tgbot.CheckRobot()
 }
 
 // domReady is called after the front-end dom has been loaded
