@@ -54,27 +54,27 @@ management and interaction features.
 
 #### How to use keyboard groups?
 
-[![Keyboard groups](./app/frontend/src/assets/images/26key.png)]
+![Keyboard groups](./app/frontend/src/assets/images/26key.png)
 
     The effect seen on the mobile phone is like this.
 
-[![Keyboard groups](./app/frontend/src/assets/images/26keymobile.jpg)]
+![Keyboard groups](./app/frontend/src/assets/images/26keymobile.jpg)
 
 #### How to use reply?
 
-[![Reply](./app/frontend/src/assets/images/reply.png)]
+![Reply](./app/frontend/src/assets/images/reply.png)
 
     If your reply is dynamic content, check the template option.
 
-[![Reply](./app/frontend/src/assets/images/tmpl.png)]
+![Reply](./app/frontend/src/assets/images/tmpl.png)
 
 #### How to listen commands?
 
-[![Listen commands](./app/frontend/src/assets/images/command.png)]
+![Listen commands](./app/frontend/src/assets/images/command.png)
 
     If the reply you selected is dynamic. You must set Hook URL. When the command is triggered, i will call your api and get the reply.
 
-[![Listen commands](./app/frontend/src/assets/images/commandtmpl.png)]
+![Listen commands](./app/frontend/src/assets/images/commandtmpl.png)
 
 ### FAQ about OpenAI:
 

@@ -53,27 +53,27 @@ Robot For Telegram 是一款桌面端产品，旨在帮助用户管理多个 Tel
 
 #### 如何使用键盘组?
 
-[![Keyboard groups](./app/frontend/src/assets/images/26key.png)]
+![Keyboard groups](./app/frontend/src/assets/images/26key.png)
 
     在手机上看到的效果是这样的。
 
-[![Keyboard groups](./app/frontend/src/assets/images/26keymobile.jpg)]
+![Keyboard groups](./app/frontend/src/assets/images/26keymobile.jpg)
 
 #### 怎么使用回复?
 
-[![Reply](./app/frontend/src/assets/images/reply.png)]
+![Reply](./app/frontend/src/assets/images/reply.png)
 
     如果您的回复是动态内容，请勾选模板选项。
 
-[![Reply](./app/frontend/src/assets/images/tmpl.png)]
+![Reply](./app/frontend/src/assets/images/tmpl.png)
 
 #### 怎么监听命令?
 
-[![Listen commands](./app/frontend/src/assets/images/command.png)]
+![Listen commands](./app/frontend/src/assets/images/command.png)
 
     如果您选择的回复是动态的。您必须设置 Hook URL。当命令被触发时，我将调用您的api并获取回复。
 
-[![Listen commands](./app/frontend/src/assets/images/commandtmpl.png)]
+![Listen commands](./app/frontend/src/assets/images/commandtmpl.png)
 
 ### 关于OpenAI:
 
