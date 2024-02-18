@@ -116,5 +116,5 @@ Robot For Telegram 是一款桌面端产品，旨在帮助用户管理多个 Tel
 
 - 确认你安装了 [wails](https://wails.io/docs/gettingstarted/installation)
 - 运行命令 `wails doctor` 检查你的环境。如果没问题，你才可以构建。
-- 把你工作目录切换刀 `app`
+- 把你工作目录切换到 `app`
 - 运行 `wails dev` 进行开发. 或者运行 `wails build` 来打包。
