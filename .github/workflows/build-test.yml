@@ -41,11 +41,16 @@ jobs:
         working-directory: ./app
         run: |
           go install github.com/wailsapp/wails/cmd/wails@latest
+          go mod tidy
+          bash -c "cd frontend && npm install"
           wails build
 
       - name: Run tests (!mac)
         if: matrix.os != 'macos-latest' && matrix.os != 'macos-11'
         working-directory: ./app
+        shell: bash
         run: |
           go install github.com/wailsapp/wails/cmd/wails@latest
+          go mod tidy
+          bash -c "cd frontend && npm install"
           wails build
