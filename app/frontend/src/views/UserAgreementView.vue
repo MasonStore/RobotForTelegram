@@ -20,7 +20,7 @@ const reject = () => {
 const {t} = useI18n();
 
 const contactUs = () => {
-  BrowserOpenURL("https://t.me/RobotForTelegramSupport")
+  BrowserOpenURL("https://t.me/RobotForTGSupport")
 }
 </script>
 

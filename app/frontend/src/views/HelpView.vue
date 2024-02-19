@@ -34,7 +34,7 @@ const back = () => {
 const {t} = useI18n();
 
 const contactUs = () => {
-  BrowserOpenURL("https://t.me/RobotForTelegramSupport")
+  BrowserOpenURL("https://t.me/RobotForTGSupport")
 }
 
 const jumpTo = (url: string) => {
@@ -109,7 +109,7 @@ const openSourceList = ref([{
         </p>
       </div>
 
-      <h2 class="text-xl font-semibold mb-4">1. {{ t('Telegram相关') }}</h2>
+      <h2 class="text-xl font-semibold mb-4">1. {{ t('TG相关') }}</h2>
       <ul class="list-disc pl-5 space-y-2 color-78c6f6">
         <li>{{ t('怎么创建机器人') }}</li>
         <p class="text-l">

@@ -7,8 +7,6 @@ import (
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
-	"os"
-	"path/filepath"
 )
 
 var Instance *Store
@@ -23,12 +21,8 @@ type Store struct {
 
 func NewStore(ctx context.Context) *Store {
 	// 获取可执行文件的路径 在同级目录创建数据库文件
-	ex, err := os.Executable()
-	if err != nil {
-		panic(err)
-	}
-	exPath := filepath.Dir(ex)
-	dbPath := filepath.Join(exPath, "store.db")
+	dbPath := GetDbPath(ctx)
+
 	db, err := gorm.Open(sqlite.Open(dbPath), &gorm.Config{
 		Logger: logger.Default.LogMode(logger.Info),
 	})

@@ -200,7 +200,7 @@ const {t} = useI18n();
     </div>
     <div class="container" v-show="!showAccounts">
       <img src="@/assets/images/appicon.png" alt="" class="logoImg"/>
-      <h2>Robot For Telegram</h2>
+      <h2>Robot For TG</h2>
       <span class="nbspLine">&nbsp;</span>
       <div class="addAccountTip">
         {{ t('addAccountTip') }}

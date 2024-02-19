@@ -515,7 +515,7 @@ const onConfirmSelectChatGPTModel = ({selectedOptions}) => {
 }
 
 const onClickService = () => {
-  BrowserOpenURL("https://t.me/RobotForTelegramSupport")
+  BrowserOpenURL("https://t.me/RobotForTGSupport")
 }
 </script>
 

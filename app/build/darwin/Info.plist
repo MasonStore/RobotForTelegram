@@ -10,16 +10,16 @@
         <string>APPL</string>
         <key>LSApplicationCategoryType</key>
         <string>public.app-category.utilities</string>
-        <key>CFBundleName</key>
+        <key>Robot For TG</key>
         <string>{{.Info.ProductName}}</string>
         <key>CFBundleDisplayName</key>
-        <string>Robot For Telegram</string>
+        <string>Robot For TG</string>
         <key>MDItemKeywords</key>
-        <string>robot, bot, telegram, rft</string>
+        <string>robot, bot, tg, rft</string>
         <key>CFBundleIdentifier</key>
         <string>com.wails.RobotForTelegram</string>
         <key>CFBundleVersion</key>
-        <string>{{.Info.ProductVersion}}</string>
+        <string>4</string>
         <key>CFBundleGetInfoString</key>
         <string>{{.Info.Comments}}</string>
         <key>CFBundleShortVersionString</key>
