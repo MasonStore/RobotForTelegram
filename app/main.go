@@ -28,7 +28,7 @@ func main() {
 	// Create application with options
 	// 使用选项创建应用
 	err := wails.Run(&options.App{
-		Title:     "Robot For Telegram",
+		Title:     "Robot For TG",
 		Width:     900,
 		Height:    600,
 		MinWidth:  900,
@@ -104,8 +104,8 @@ func main() {
 			WebviewIsTransparent: true,
 			WindowIsTranslucent:  true,
 			About: &mac.AboutInfo{
-				Title:   "Robot For Telegram",
-				Message: "A UI management tool for Telegram bots.",
+				Title:   "Robot For TG",
+				Message: "A UI management tool for TG bots.",
 				Icon:    icon,
 			},
 		},
