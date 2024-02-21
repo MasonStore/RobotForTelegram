@@ -14,6 +14,7 @@ Robot For Telegram 是一款桌面端产品，旨在帮助用户管理多个 Tel
 [![Release](https://img.shields.io/github/v/release/MasonStore/RobotForTelegram.svg?style=flat-square)](https://github.com/MasonStore/RobotForTelegram)
 [![Awesome Go](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/avelino/awesome-go)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![AppStore](https://badgen.net/badge/icon/apple?icon=apple&label)](https://apps.apple.com/app/robot-for-tg/id6478074429)
 
 </div>
 
